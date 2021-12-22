@@ -156,6 +156,8 @@ export default function App() {
         ></div>
         {/* text-base text-gray-700  */}
       </section>
+      <p className="text-center">
+        <a href="https://github.dev/kostasx/MarkUpsAndDowns">(Source Code)</a></p>
     </div>
   );
 }
