@@ -56,7 +56,7 @@ function saveTextAsFile(data, fileExtension) {
 }
 
 export default function App() {
-  const [html, setHTML] = useState("");
+  const [html, setHTML] = useState("<h1>Hello World</h1>");
   const [md, setMd] = useState("");
   const htmlSource = useRef();
   const mdSource = useRef();
